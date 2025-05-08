@@ -13,9 +13,13 @@ iOS 16+ Simulator (or physical device)
 The project is organized into distinct layers, each responsible for specific concerns:
 
 Models: Domain models for products data
+
 Views: views responsible for the UI layout and presentation.
+
 ViewModels: Contains view models that manage UI state and interact with the domain layer.
+
 Domain: Business logic and repositories.
+
 Helper: Configuration, network, and utilities.
 
 **Dependency Injection**
